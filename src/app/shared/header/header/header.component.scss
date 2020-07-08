@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.logo {
+  font-size: 36px;
+  font-family: Algerian, sans-serif;
+  margin: 0 28%;
+}
+
+mat-toolbar {
+  background: #FFFFFF;
+}
+
+.navigation, .contactInfo {
+  display: flex;
+  text-align: center;
+}
+
+.headerText {
+  font-family: Algerian, sans-serif;
+  font-size: 16px;
+  margin: 0 5%;
+  text-decoration: none;
+  color: black;
+  height: 70%;
+}
+
+#phoneNo {
+  margin-right: 20%;
+}
+.isActive{
+  border-bottom: #D28325 1px solid;
+}

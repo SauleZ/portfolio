@@ -1,0 +1,40 @@
+:host {
+  ::ng-deep {
+    .mat-tab-group {
+      flex-direction: row;
+    }
+    .mat-tab-header {
+      border-bottom: none;
+    }
+    .mat-tab-header-pagination {
+      display: none !important;
+    }
+    .mat-tab-labels {
+      flex-direction: column;
+    }
+    .mat-ink-bar {
+      height: 100%;
+      left: 98% !important;
+    }
+    .mat-tab-body-wrapper {
+      flex: 1 1 auto;
+    }
+  }
+}
+#content,
+#main-content {
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+  }
+  &::after {
+    clear: both;
+  }
+}
+mat-tab-group {
+  padding: 0 5%;
+}
+.s {
+  color: rgba(0, 0, 0, 0);
+}

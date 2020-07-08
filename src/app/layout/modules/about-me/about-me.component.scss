@@ -1,0 +1,82 @@
+.example-card {
+  width: 90%;
+  margin: 0 4%;
+}
+
+.example-card img {
+  max-width: 270px;
+  max-height: 350px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.fullName {
+  font-family: Algerian, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 7%;
+}
+
+.content {
+  width: 60%;
+  text-align: center;
+  padding: 2% 5%;
+  margin: 2% 10%;
+}
+
+.descritptionText {
+  color: #938A8A;
+  font-size: 20px;
+}
+
+.description {
+  float: right;
+  text-align: left;
+}
+
+p {
+  font-family: Algerian, sans-serif;
+}
+
+span {
+  color: black;
+}
+
+.downloadBtn {
+  color: #FFFFFF;
+  background-color: #423F3F;
+  height: 50px;
+  width: 20%;
+  border-radius: 25px;
+}
+
+#btnDiv {
+  text-align: left;
+  margin-left: 15%;
+}
+
+mat-card {
+  z-index: 2;
+}
+
+.container {
+  background: #F5F5F5;
+  height: 80rem;
+}
+
+.skills {
+  margin: 2% 15%;
+  text-align: center;
+  width: 70%;
+  padding: 2%;
+}
+.programmingSkills{
+  display: flex;
+}
+.column img{
+  width: 60%;
+  margin: 5%;
+}

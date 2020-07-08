@@ -1,0 +1,25 @@
+<div fxLayout="column" fxLayoutAlign="start start" id="main-content" style="height: 100%; padding-top: 5%">
+  <div style="padding-left: 5%">
+    <p style="font-family: Algerian, sans-serif; font-weight: bold">ФИЛЬТР ПО КАТЕГОРИЯМ:</p>
+  </div>
+  <mat-tab-group class="my-theme" color="my-primary">
+    <mat-tab label="Все проекты">
+      <app-all-projects></app-all-projects>
+    </mat-tab>
+    <mat-tab label="Angular">
+      <app-angular-projects></app-angular-projects>
+    </mat-tab>
+    <mat-tab label="Web-design">
+      <app-web-design-projects></app-web-design-projects>
+    </mat-tab>
+    <mat-tab label="PostgreSQL">
+      <app-postgres-projects></app-postgres-projects>
+    </mat-tab>
+    <mat-tab label="Games">
+      <app-games-projects></app-games-projects>
+    </mat-tab>
+    <mat-tab label="Laravel">
+      <app-laravel-projects></app-laravel-projects>
+    </mat-tab>
+  </mat-tab-group>
+</div>
